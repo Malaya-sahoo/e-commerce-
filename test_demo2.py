@@ -30,7 +30,11 @@ def test_SecondCreditCard():
     assert a+2 == 6, "Addition do not match"
 
 
-
+def test_Add():
+    a=10
+    b=20
+    c=a+b
+    print("sum of -",c)
 
 
 
